@@ -1,0 +1,104 @@
+.text-color
+{
+	-fx-fill: white;
+}
+
+.root
+{
+	-fx-background-color: #2c2f33;
+}
+
+.label
+{
+	-fx-text-fill: #ffffff;
+}
+
+.text-field
+{
+	-fx-background-color: #99aab5;
+}
+
+.combo-box .list-cell 
+{
+	-fx-background-color: #99aab5;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+     -fx-background-color: linear-gradient(#a3b2bc 0%, #99aab5 25%, #7a8890 75%, #5b666c 100%);
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: #8999a2;
+}
+
+.combo-box-base  
+{
+    -fx-background-color: #99aab5;
+}
+
+.combo-box-base:hover
+{
+    -fx-background-color: #8999a2;
+}
+
+.combo-box-base:showing 
+{
+    -fx-background-color: #8999a2;
+}
+
+.combo-box-base:focused 
+{
+    fx-background-color: #8999a2;
+}
+
+.radio-button
+{
+	-fx-text-fill: white;
+}
+
+.button
+{
+	-fx-background-color: linear-gradient(#7289da 0%, #667bc4 25%, #5b6dae 75%, #4f5f98 100%);
+}
+
+.button:hover
+{
+	-fx-background-color: #5b6dae;
+}
+
+.list-view
+{
+	-fx-background-color: #23272A;
+	-fx-border-color: #000000;
+	-fx-border-width: 2px;
+}
+
+.list-view, .split-pane 
+{ 
+	-fx-background-insets: 0; 
+	-fx-padding: 0; 
+}
+
+.list-view .list-cell:even 
+{
+	-fx-background-color: #23272A;
+	-fx-text-fill: #ffffff;
+}
+
+.list-view .list-cell:odd 
+{
+	-fx-background-color: #2c2f33;
+	-fx-text-fill: #ffffff;
+}
+
+.list-view .list-cell:filled:selected:focused, .list-cell:filled:selected 
+{
+    -fx-background-color: linear-gradient(#7289da 0%, #667bc4 25%, #5b6dae 75%, #4f5f98 100%);
+}
+
+.list-view .list-cell:filled:hover 
+{
+    -fx-background-color: #7289da;
+}
